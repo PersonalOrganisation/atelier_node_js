@@ -2,7 +2,17 @@
 const chalk = require('chalk');
 
     console.log(chalk.blue('Alex'));
-    console.log(chalk.blue('Nicolas'));
-    console.log(chalk.blue('Damien'));
-    console.log(chalk.blue('Bastien'));
-    console.log(chalk.blue('Sarah'));
+    console.log(chalk.green('Nicolas'));
+    console.log(chalk.red('Damien'));
+    console.log(chalk.yellow('Bastien'));
+    // console.log(chalk.blue('Sarah'));
+
+// const http = require('http');
+
+// const server = http.createServer((request, response) => {
+//   response.writeHead(200);
+//   response.end('Hello World');
+// });
+
+// server.listen(3000);
+// console.log('Adresse du serveur: http://localhost:3000');
